@@ -1,0 +1,7 @@
+version: '2'
+services:
+  ttf2woff2:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: vanekt/ttf2woff2
